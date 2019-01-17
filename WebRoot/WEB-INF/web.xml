@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageMaskServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.ImageMaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerificationServle</servlet-name>
+    <servlet-class>com.xtkj.servlet.VerificationServle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAccount</servlet-name>
+    <servlet-class>com.xtkj.servlet.AddAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.UserShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.AddAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAdminServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.DeleteAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.UpdateAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdvertisingServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.AddAdvertisingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.AdvShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeAdvertisingServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.ChangeAdvertisingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvDeleteServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.AdvDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateVipServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.UpdateVipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SuggestServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.SuggestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SuggestShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.SuggestShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.NewsShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsAddServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.NewsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsSiteShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.NewsSiteShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangPswServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.ChangPswServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrductShowServlet</servlet-name>
+    <servlet-class>com.xtkj.servlet.PrductShowServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ImageMaskServlet</servlet-name>
+    <url-pattern>/imageMaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerificationServle</servlet-name>
+    <url-pattern>/verificationServle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAccount</servlet-name>
+    <url-pattern>/addAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserShowServlet</servlet-name>
+    <url-pattern>/userShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <url-pattern>/addAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAdminServlet</servlet-name>
+    <url-pattern>/deleteAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <url-pattern>/updateAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdvertisingServlet</servlet-name>
+    <url-pattern>/addAdvertisingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvShowServlet</servlet-name>
+    <url-pattern>/advShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeAdvertisingServlet</servlet-name>
+    <url-pattern>/changeAdvertisingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvDeleteServlet</servlet-name>
+    <url-pattern>/advDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateVipServlet</servlet-name>
+    <url-pattern>/updateVipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuggestServlet</servlet-name>
+    <url-pattern>/suggestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuggestShowServlet</servlet-name>
+    <url-pattern>/suggestShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsShowServlet</servlet-name>
+    <url-pattern>/newsShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsAddServlet</servlet-name>
+    <url-pattern>/newsAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsSiteShowServlet</servlet-name>
+    <url-pattern>/newsSiteShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangPswServlet</servlet-name>
+    <url-pattern>/changPswServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/addProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrductShowServlet</servlet-name>
+    <url-pattern>/prductShowServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

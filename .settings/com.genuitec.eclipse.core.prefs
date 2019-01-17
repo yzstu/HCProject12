@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/HC/js,WebRoot/HCManager/js,WebRoot/js,WebRoot/HCManager/inc/jquery.min.js,WebRoot/HCManager/inc/public.js
+validator.Unchecked=
